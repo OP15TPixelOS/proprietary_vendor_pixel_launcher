@@ -2,4 +2,6 @@
 <config>
     <!-- Pixel Launcher can bind to the open-source network component. -->
     <allow-association target="com.google.android.as.oss" allowed="com.google.android.apps.nexuslauncher" />
+    <!-- Android System Intelligence downloads caption models through Private Compute Services. -->
+    <allow-association target="com.google.android.as.oss" allowed="com.google.android.as" />
 </config>
